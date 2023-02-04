@@ -1,0 +1,156 @@
+@media screen and (max-width: 768px) {
+		#bloque1{ 
+		
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				background-color: blue;
+				height:150px;
+				border: 2px solid Yellow;
+		  } 
+		  
+		#bloque2{ 
+				
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				background-color: cyan;
+				height:150px;
+				border: 2px solid Yellow;
+		  }
+		  
+		#bloque3{ 
+				display:flex;
+				justify-content: center;
+				align-items: center;
+		        background-color: red;
+		        height:150px;
+		        border: 2px solid Yellow;
+        }  
+		#bloque4{ 
+		        .container {
+                  width: 100%;
+                 }
+
+				.responsive-image{
+				 max-width: 100%;
+				 max-height: 100%;
+				}
+
+				
+				
+		        
+        }  
+		#bloque5{ 
+		        
+		      .container {
+                 width: 100%;
+                 }
+
+				.responsive-image{
+				 max-width: 100%;
+				 max-height: 100%;
+				}  
+        }  
+		
+		#bloque6{ 
+		      .container {
+                 width: 100%;
+                 }
+
+				.responsive-image{
+				 max-width: 100%;
+				 max-height: 100%;
+				} 
+		        
+        }  
+		  
+		#bloque7{ 
+				.container {
+                 width: 100%;
+                 }
+
+				.responsive-image{
+				 max-width: 100%;
+				 max-height: 100%;
+				}
+		} 
+		  
+		#bloque8{ 
+				
+				 border: 2px solid Yellow;
+		} 
+  
+}
+
+@media screen and (min-width:769px) {
+		#bloque1{ 
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				background-color: blue;
+				height:350px;
+				border: 2px solid Yellow;
+		  } 
+		  
+		#bloque2{ 
+				
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				background-color: cyan;
+				height:350px;
+				border: 2px solid Yellow;
+		  }
+		  
+		#bloque3{ 
+				display:flex;
+				justify-content: center;
+				align-items: center;
+		        background-color: blue;
+		        height:350px;
+		        border: 2px solid Yellow;
+        }  
+		#bloque4{ 
+		        .responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+				}
+		        
+		        
+        }  
+		#bloque5{ 
+		      .responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+        }  
+		#bloque6{ 
+		     .responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+        }  
+		  
+		#bloque7{ 
+			.responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+		}		
+		  
+		#bloque8{ 
+		        
+		        border: 2px solid Yellow;
+		}
+  
+
+}
+
+
+
