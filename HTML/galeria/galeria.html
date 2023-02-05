@@ -3,31 +3,51 @@
 <html>
 <head>
 
-	<title> ACTIVIDAD NOMBRE </title>
+	<title> GALERÍA </title>
 	<meta charset="utf-8">      <!--charset para introducie elementos del idioma castellano-->
 	<meta name="author" content="Carlos Jiménez">
-	<meta name="Actividad nombre" content="Actividad 3-Práctica nombre">
+	<meta name="Actividad 4 WEB" content="Actividad 4 WEB">
 
 	<link rel="stylesheet" type="text/css" href="./CSS/estilos.css">   <!--Es es el link a mi archivo de stilos css -->
 	<link rel="stylesheet" href="./CSS/bootstrap.min.css">             <!-- Este es el link al archivo bootstrap en la carpeta css-->
     <script src="./JS/jquery.js"></script>							   <!--Este es el link al archivo jquery en la carpeta js-->
 	<script src="./JS/bootstrap.min.js"></script>                      <!--Este es el link al archivo bootstrp.js en la carpeta js -->
 	
+	<style>
+    .gallery {
+     display: flex;
+     flex-wrap: wrap;
+    }
+
+    .gallery img {
+     width: 30%;
+     margin: 10px;
+     border: 1px solid #ddd;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    }
+    </style>
 
 </head>
 
 <body>
-<div class="container-fluid">                <!--Esta instruccion es para quitar un margen que sale en los bordes de la página -->
+<div class="container-fluid">                
 
-
-
-
-
-
-
-
+	<div class="gallery">
+	  <img src="./IMG/1.jpg" alt="Image 1">
+	  <img src="./IMG/2.jpg" alt="Image 2">
+	  <img src="./IMG/3.jpg" alt="Image 3">
+	  <img src="./IMG/4.jpg" alt="Image 4">
+	  <img src="./IMG/1.jpg" alt="Image 5">
+	  <img src="./IMG/2.jpg" alt="Image 6">
+	  <img src="./IMG/3.jpg" alt="Image 7">
+	  <img src="./IMG/4.jpg" alt="Image 8">
+	  <img src="./IMG/9.jpg" alt="Image 9">
+	  
+	</div>
 
 </div>
+
+<p><center><h1><a href=../../index.html> ATRAS</a></h1>
 </body>
 
 </html>
