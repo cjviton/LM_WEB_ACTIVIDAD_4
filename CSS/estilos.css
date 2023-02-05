@@ -23,57 +23,45 @@
 				display:flex;
 				justify-content: center;
 				align-items: center;
-		        background-color: red;
+		        background-color: blue;
 		        height:150px;
 		        border: 2px solid Yellow;
         }  
 		#bloque4{ 
-		        .container {
-                  width: 100%;
-                 }
-
-				.responsive-image{
-				 max-width: 100%;
-				 max-height: 100%;
-				}
-
-				
-				
+		         display:flex;
+				justify-content: center;
+				align-items: center;
+		        background-color:LightSkyBlue ;
+		    
+		        border: 2px solid Yellow;   			
 		        
         }  
 		#bloque5{ 
-		        
-		      .container {
-                 width: 100%;
-                 }
-
-				.responsive-image{
-				 max-width: 100%;
-				 max-height: 100%;
-				}  
+		       display:flex;
+				justify-content: center;
+				align-items: center;
+		        background-color:CornflowerBlue ;
+		    
+		        border: 2px solid Yellow;    
+		      
         }  
 		
 		#bloque6{ 
-		      .container {
-                 width: 100%;
-                 }
-
-				.responsive-image{
-				 max-width: 100%;
-				 max-height: 100%;
-				} 
-		        
+		      display:flex;
+				justify-content: center;
+				align-items: center;
+		        background-color:LightSteelBlue ;
+		    
+		        border: 2px solid Yellow;   
         }  
 		  
 		#bloque7{ 
-				.container {
-                 width: 100%;
-                 }
-
-				.responsive-image{
-				 max-width: 100%;
-				 max-height: 100%;
-				}
+				display:flex;
+				justify-content: center;
+				align-items: center;
+		        background-color:LightSeaGreen ;
+		    
+		        border: 2px solid Yellow; 
 		} 
 		  
 		#bloque8{ 
@@ -112,36 +100,41 @@
 		        border: 2px solid Yellow;
         }  
 		#bloque4{ 
+				background-color:LightSkyBlue ;
 		        .responsive-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+                 width: 100%;
+                 height: auto;
+				 object-fit: cover;
+				
 				}
+		}        
 		        
-		        
-        }  
+          
 		#bloque5{ 
-		      .responsive-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-        }  
+				background-color:CornflowerBlue ;
+		        .responsive-image {
+				width: 100%;
+				height: auto;	
+				object-fit: cover;
+		       }
+		}	   
+         
 		#bloque6{ 
-		     .responsive-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+				background-color:LightSteelBlue ;
+		        .responsive-image {
+                width: 100%;
+			    height: auto;
+                object-fit: cover;
+				}
         }  
 		  
 		#bloque7{ 
-			.responsive-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+				background-color:LightSeaGreen ;
+			   .responsive-image {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+			    }
 		}		
 		  
 		#bloque8{ 
